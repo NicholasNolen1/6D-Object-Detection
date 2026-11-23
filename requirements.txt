@@ -1,0 +1,17 @@
+# Dependencies for 3D Object Tracking & Point Cloud Reconstruction
+numpy>=1.24.0
+scipy>=1.10.0
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+
+# 3D Geometry and Point Cloud Processing
+open3d>=0.18.0
+
+# Deep Learning & Vision Models
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.3.0
+
+# Optional: Persistent 2D Point Tracking & Video Segmentation
+# pip install git+https://github.com/facebookresearch/co-tracker.git
+# pip install git+https://github.com/facebookresearch/segment-anything-2.git
